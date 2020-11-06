@@ -8,10 +8,11 @@ When you get a developer account from us, alongside you will get your **Client I
 - Scopes: a comma separated string, used to decide which APIs you can access to, for instance, scopes: device,scece
 
 ## Run
-Change AppConfig.js file
+
+Change AppConfig.js file, and hen:
 
 ```shell
 $yarn install
 $npx pod-install
-$npm run ios or run android
+$yarn run ios # yarn run android
 ```
