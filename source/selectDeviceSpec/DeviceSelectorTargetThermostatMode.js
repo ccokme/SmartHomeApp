@@ -88,9 +88,9 @@ export default class DeviceSelectorTargetThermostatMode extends React.Component 
                 onClick={() => this.onClick()}
                 rightText={Helper.i(this.props.spec.name)}
                 isChecked={this.state.checked}
-                checkedImage={<Image source={require("../../img/checkbox-checked.png")}
+                checkedImage={<Image source={require("../../img/checkbox2-checked.png")}
                   style={{ width: 17, height: 17, }} />}
-                unCheckedImage={<Image source={require("../../img/Checkbox.png")}
+                unCheckedImage={<Image source={require("../../img/checkbox2.png")}
                   style={{ width: 17, height: 17 }} />}
               />
             </View>

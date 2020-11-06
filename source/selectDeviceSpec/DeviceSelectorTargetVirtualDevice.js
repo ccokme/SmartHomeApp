@@ -53,13 +53,13 @@ export default class DeviceSelectorTargetVirtualDevice extends React.Component {
                 isChecked={this.state.checked}
                 checkedImage={
                   <Image
-                    source={require('../../img/checkbox-checked.png')}
+                    source={require('../../img/checkbox2-checked.png')}
                     style={{width: 17, height: 17}}
                   />
                 }
                 unCheckedImage={
                   <Image
-                    source={require('../../img/Checkbox.png')}
+                    source={require('../../img/checkbox2.png')}
                     style={{width: 17, height: 17}}
                   />
                 }
