@@ -9,7 +9,7 @@ When you get a developer account from us, alongside you will get your **Client I
 
 ## Run
 
-Change AppConfig.js file, and hen:
+Change AppConfig.js file, and then:
 
 ```shell
 $yarn install
