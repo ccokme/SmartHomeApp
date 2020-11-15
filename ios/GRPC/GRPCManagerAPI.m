@@ -113,11 +113,11 @@ call with callback
   if ([self.env isEqualToString:@"dev"]) {
     // self-signed SSL for dev
     certName = @"server";
-    options.hostNameOverride = @"gcs.presensmarthome.com"; // 和自签证书中的域名匹配
+    options.hostNameOverride = @"gcs.smarthomesdk.com"; // 和自签证书中的域名匹配
   } else {
     // purchased from comodo, see cloud project
     certName = @"gcs_grpc_client";
-//    options.hostNameOverride = @"www.presensmarthome.com";
+//    options.hostNameOverride = @"www.smarthomesdk.com";
   }
   
   NSBundle *bundle = [NSBundle bundleForClass:[self class]];

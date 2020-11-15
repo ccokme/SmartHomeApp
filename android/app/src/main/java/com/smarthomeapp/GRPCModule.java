@@ -148,7 +148,7 @@ public class GRPCModule extends ReactContextBaseJavaModule {
             if (dev.equals("dev")) {
                 return true;
             } else {
-                String pattern = ".*presensmarthome.com";
+                String pattern = ".*smarthomesdk.com";
                 boolean isMatch = Pattern.matches(pattern, hostname);
                 return isMatch;
             }
