@@ -58,9 +58,9 @@ import io.grpc.stub.MetadataUtils;
 import io.grpc.stub.StreamObserver;
 
 import com.google.protobuf.ByteString;
-import com.smarthomeapp.grpc.MsgSimpleRsp;
-import com.smarthomeapp.grpc.MsgPullDataReq;
-import com.smarthomeapp.grpc.ServiceGrpc;
+import com.smarthomesdk.grpc.MsgSimpleRsp;
+import com.smarthomesdk.grpc.MsgPullDataReq;
+import com.smarthomesdk.grpc.ServiceGrpc;
 import com.squareup.okhttp.ConnectionSpec;
 
 import org.json.JSONArray;
