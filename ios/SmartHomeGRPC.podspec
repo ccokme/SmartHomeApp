@@ -3,8 +3,8 @@ Pod::Spec.new do |s|
   s.version  = '0.0.4'
   s.license  = '...'
   s.authors  = { 'LiLei' => 'mytake6@gmail.com' }
-  s.homepage = 'https://www.presensmarthome.com'
-  s.summary = 'https://www.presensmarthome.com'
+  s.homepage = 'https://www.smarthomesdk.com'
+  s.summary = 'https://www.smarthomesdk.com'
   s.source = { :git => 'https://github.com' }
 
   s.ios.deployment_target = '7.1'

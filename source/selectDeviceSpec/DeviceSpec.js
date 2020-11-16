@@ -128,9 +128,9 @@ export default class DeviceSpec extends React.Component {
         onClick={() => _this.onClick(value)}
         rightText={Helper.i(spec.name)}
         isChecked={_.includes(_this.props.spec_settings.device_ids, value)}
-        checkedImage={<Image source={require("../../img/checkbox-checked.png")}
+        checkedImage={<Image source={require("../../img/checkbox2-checked.png")}
           style={{ width: 18, height: 18, marginLeft: 20 }} />}
-        unCheckedImage={<Image source={require("../../img/Checkbox.png")}
+        unCheckedImage={<Image source={require("../../img/checkbox2.png")}
           style={{ width: 18, height: 18, marginLeft: 20 }} />}
       />
     );
