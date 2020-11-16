@@ -158,6 +158,7 @@ export default class SceneView extends Component {
                       },
                     ]}>
                     <TextInput
+                      testID="scene_input"
                       placeholderTextColor={Tme('placeholder')}
                       style={Colors.TextInputStyle()}
                       autoCapitalize="none"

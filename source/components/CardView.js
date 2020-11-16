@@ -35,6 +35,7 @@ export default class CardView extends Component {
 
     return (
       <TouchableOpacity
+        testID="card_item"
         activeOpacity={hasOnTouch ? 0.8 : 1}
         onPress={hasOnTouch ? this.props.onChange.bind(this) : () => {}}
         style={[
@@ -50,6 +51,7 @@ export default class CardView extends Component {
         {this.props.children}
         {this.props.showMenu ? (
           <TouchableOpacity
+            testID="card_menu"
             activeOpacity={0.8}
             hitSlop={{top: 20, right: 20, bottom: 20, left: 20}}
             onPress={this.props.showMenu}>

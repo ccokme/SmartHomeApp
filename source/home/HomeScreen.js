@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, StyleSheet, Text, ScrollView} from 'react-native';
+import {View, StyleSheet, Text, ScrollView, Button} from 'react-native';
 import _ from 'lodash';
 import {Helper, HelperMemo, DEVICE_WIDTH} from '../Helper';
 import {Popover} from '@ant-design/react-native';
@@ -88,6 +88,13 @@ export default class HomeScreen extends Component {
             flex: 1,
             paddingHorizontal: 20,
           }}>
+          <Button
+            accessible={true}
+            title="Learn More"
+            color="#841584"
+            testID="learn_more"
+            accessibilityLabel="Learn more about this purple button"
+          />
           {html}
         </ScrollView>
       </View>
