@@ -88,13 +88,6 @@ export default class HomeScreen extends Component {
             flex: 1,
             paddingHorizontal: 20,
           }}>
-          <Button
-            accessible={true}
-            title="Learn More"
-            color="#841584"
-            testID="learn_more"
-            accessibilityLabel="Learn more about this purple button"
-          />
           {html}
         </ScrollView>
       </View>
